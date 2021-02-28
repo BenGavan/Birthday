@@ -1,0 +1,79 @@
+
+
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+    height: 100%;
+    width: 100%;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    scroll-behavior: smooth;
+}
+
+#atf {
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    font-size: 6vh;
+    text-align: center;
+    line-height: 1.5;
+
+    padding: 20px;
+}
+
+#confetti{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+a.iprodev {
+    line-height: normal;
+    font-family: Varela Round, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 13px;
+    color: #A7AAAE;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    border: 1px solid #A7AAAE;
+    padding: 12px 20px 10px;
+    border-radius: 50px;
+    transition: all .1s ease-in-out;
+    text-transform: uppercase;
+}
+a.iprodev:hover {
+    background: #A7AAAE;
+    color: white;
+}
+/*img {*/
+
+/*    position: absolute;*/
+
+/*    top: 100vh;*/
+
+/*    transform: translateY(-200vh);*/
+/*    transition-property: all;*/
+/*    transition-duration: 10s;*/
+/*    !*animation-duration: 2s;*!*/
+/*    !*animation-iteration-count: initial;*!*/
+/*    !*animation-timing-function: ease-in-out;*!*/
+/*}*/
+
+
+
